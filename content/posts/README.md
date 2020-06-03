@@ -1,3 +1,16 @@
+---
+title: "如何使用?"
+date: 2020-06-03
+slug: "hugo leaveIt project help doc"
+draft: false
+tags:
+- Help
+- Hugo
+categories:
+- Help
+---
+
+
 # hugo-leaveIt-project
 
 使用hugo LeaveIt主题，并做了自定义的微调。

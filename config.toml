@@ -1,0 +1,78 @@
+baseURL = "https://star-royce.github.io/royce.blog.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true # 开启可以让「字数统计」统计汉字
+title = "TODO"
+theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+canonifyurls = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:month/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[params]
+    since = 2020
+    author = "Royce.li"                           # Author's name
+    avatar = "/images/me/main.jpeg"           # Author's avatar
+    subtitle = "随手一记，惊天动地"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+
+    description = "" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+    license= '可以崇拜，但请不要过度迷恋！'
+
+[params.social]
+    GitHub = "star-royce"
+    Email   = "private.royce@gmail.com"
+    Wechat = ""  # Wechat QRcode image
+
+[params.share]
+    Douban = true
+    Weibo = true
+
+[author]
+  name = "royce.li"
+
+  [params.publisher]
+    name = "royce.li"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
